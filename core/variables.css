@@ -1,0 +1,14 @@
+:root {
+  --cobalt-blue: #1446a0ff;
+  --razzmatazz: #db3069ff;
+  --royal-gold: #f5d547ff;
+  --beige: #ebebd3ff;
+  --gunmetal: #3c3c3bff;
+
+  /* Colors */
+  --color-black: var(--gunmetal);
+  --color-white: var(--beige);
+  --color-primary: var(--royal-gold);
+  --color-accent: var(--razzmatazz);
+  --color-accent-2: var(--cobalt-blue);
+}
