@@ -1,0 +1,10 @@
+:root {
+  font-size: 16px;
+
+  --spacing-xxs: 0.2rem;
+  --spacing-xs: 1rem;
+  --spacing-sm: 2rem;
+  --spacing-med: 4rem;
+  --spacing-lg: 8rem;
+  --spacing-xl: 16rem;
+}

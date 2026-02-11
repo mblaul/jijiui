@@ -1,0 +1,32 @@
+@import url("../core/palette.css");
+
+@media (prefers-color-scheme: no-preference) {
+  :root {
+    --background-color: var(--color-white);
+    --text-color: var(--color-black);
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --background-color: var(--color-white);
+    --text-color: var(--color-black);
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background-color: var(--color-black);
+    --text-color: var(--color-white);
+  }
+}
+
+[data-theme="theme-light"] {
+  --background-color: var(--color-white);
+  --text-color: var(--color-black);
+}
+
+[data-theme="theme-dark"] {
+  --background-color: var(--color-black);
+  --text-color: var(--color-white);
+}

@@ -1,0 +1,26 @@
+/* Order matters */
+@import url("core/reset.css");
+@import url("core/spacing.css");
+@import url("core/palette.css");
+@import url("core/sane_defaults.css");
+@import url("core/font.css");
+@import url("design/theme.css");
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+
+  padding: var(--spacing-med);
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
