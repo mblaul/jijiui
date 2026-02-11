@@ -13,13 +13,13 @@ function toggleTheme(event) {
   switch (document.documentElement.dataset?.theme) {
     case "theme-dark": {
       document.documentElement.dataset.theme = "theme-light";
-      event.target.innerHTML = "☀️";
+      event.target.innerHTML = "Switch to dark mode";
       break;
     }
 
     case "theme-light": {
       document.documentElement.dataset.theme = "theme-dark";
-      event.target.innerHTML = "🌙";
+      event.target.innerHTML = "Switch to light mode";
     }
   }
 }
