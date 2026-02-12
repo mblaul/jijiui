@@ -17,6 +17,26 @@ body {
     ease-in-out 0.3s color;
 }
 
+section {
+  padding: var(--spacing-sm);
+}
+
+.section-content {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-xs);
+}
+
+p {
+  max-width: 45rem;
+}
+
+ul,
+ol {
+  max-width: 45rem;
+  padding-inline-start: var(--spacing-sm);
+}
+
 h1 {
   font-size: 4rem;
   font-family: "Alan Sans", sans-serif;
