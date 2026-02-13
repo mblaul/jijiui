@@ -1,6 +1,7 @@
 @import url("../core/index.css");
 
 button {
+  cursor: pointer;
   padding: var(--spacing-xs);
   color: var(--text-color);
 
@@ -12,4 +13,31 @@ button {
   border-radius: 5px;
 
   max-width: fit-content;
+
+  &.small {
+    font-size: 0.8rem;
+    font-weight: 500;
+    padding: var(--spacing-xxs);
+    border: 1.5px solid var(--text-color);
+  }
+
+  &.large {
+    font-size: 1.6rem;
+    font-weight: 700;
+    padding: var(--spacing-sm);
+    border: 2px solid var(--text-color);
+    border-radius: 8px;
+  }
+}
+
+[data-theme="theme-light"] button {
+  &:hover {
+    background-color: hsl(from var(--color-accent) h calc(s + 10) calc(l + 10));
+  }
+}
+
+[data-theme="theme-dark"] button {
+  &:hover {
+    background-color: hsl(from var(--color-accent) h calc(s + 10) calc(l - 10));
+  }
 }
