@@ -4,7 +4,7 @@
   :root {
     --background-color: var(--color-white);
     --text-color: var(--color-black);
-    --color-primary: var(--cobalt-blue);
+    --color-primary: var(--blue);
   }
 }
 
@@ -12,7 +12,7 @@
   :root {
     --background-color: var(--color-white);
     --text-color: var(--color-black);
-    --color-primary: var(--cobalt-blue);
+    --color-primary: var(--blue);
   }
 }
 
@@ -20,18 +20,18 @@
   :root {
     --background-color: var(--color-black);
     --text-color: var(--color-white);
-    --color-primary: var(--royal-gold);
+    --color-primary: var(--gold);
   }
 }
 
 [data-theme="theme-light"] {
   --background-color: var(--color-white);
   --text-color: var(--color-black);
-  --color-primary: var(--cobalt-blue);
+  --color-primary: var(--blue);
 }
 
 [data-theme="theme-dark"] {
   --background-color: var(--color-black);
   --text-color: var(--color-white);
-  --color-primary: var(--royal-gold);
+  --color-primary: var(--gold);
 }

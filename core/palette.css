@@ -1,13 +1,69 @@
 :root {
-  --cobalt-blue: rgb(43, 95, 191);
-  --razzmatazz: #db3069ff;
-  --royal-gold: #f5d547ff;
+  --blue: #2b5fbfff;
+  --pink: #db3069ff;
+  --gold: #f5d547ff;
   --beige: #ebebd3ff;
-  --gunmetal: #3c3c3bff;
+  --grey: #3c3c3bff;
+
+  /* Shades */
+  --blue-50: hsl(217, 63%, 95%);
+  --blue-100: hsl(217, 63%, 85%);
+  --blue-200: hsl(217, 63%, 75%);
+  --blue-300: hsl(217, 63%, 65%);
+  --blue-400: hsl(217, 63%, 55%);
+  --blue-500: hsl(217, 63%, 45%);
+  --blue-600: hsl(217, 63%, 38%);
+  --blue-700: hsl(217, 63%, 30%);
+  --blue-800: hsl(217, 63%, 22%);
+  --blue-900: hsl(217, 63%, 14%);
+
+  --pink-50: hsl(344, 70%, 95%);
+  --pink-100: hsl(344, 70%, 85%);
+  --pink-200: hsl(344, 70%, 75%);
+  --pink-300: hsl(344, 70%, 65%);
+  --pink-400: hsl(344, 70%, 55%);
+  --pink-500: hsl(344, 70%, 52%);
+  --pink-600: hsl(344, 70%, 45%);
+  --pink-700: hsl(344, 70%, 35%);
+  --pink-800: hsl(344, 70%, 25%);
+  --pink-900: hsl(344, 70%, 15%);
+
+  --gold-50: hsl(52, 89%, 95%);
+  --gold-100: hsl(52, 89%, 85%);
+  --gold-200: hsl(52, 89%, 75%);
+  --gold-300: hsl(52, 89%, 65%);
+  --gold-400: hsl(52, 89%, 63%);
+  --gold-500: hsl(52, 89%, 55%);
+  --gold-600: hsl(52, 89%, 48%);
+  --gold-700: hsl(52, 89%, 38%);
+  --gold-800: hsl(52, 89%, 28%);
+  --gold-900: hsl(52, 89%, 18%);
+
+  --beige-50: hsl(60, 33%, 97%);
+  --beige-100: hsl(60, 33%, 93%);
+  --beige-200: hsl(60, 33%, 88%);
+  --beige-300: hsl(60, 33%, 83%);
+  --beige-400: hsl(60, 33%, 78%);
+  --beige-500: hsl(60, 33%, 70%);
+  --beige-600: hsl(60, 33%, 60%);
+  --beige-700: hsl(60, 33%, 48%);
+  --beige-800: hsl(60, 33%, 35%);
+  --beige-900: hsl(60, 33%, 22%);
+
+  --grey-50: hsl(40, 2%, 95%);
+  --grey-100: hsl(40, 2%, 85%);
+  --grey-200: hsl(40, 2%, 70%);
+  --grey-300: hsl(40, 2%, 55%);
+  --grey-400: hsl(40, 2%, 40%);
+  --grey-500: hsl(40, 2%, 24%);
+  --grey-600: hsl(40, 2%, 20%);
+  --grey-700: hsl(40, 2%, 16%);
+  --grey-800: hsl(40, 2%, 12%);
+  --grey-900: hsl(40, 2%, 8%);
 
   /* Colors */
-  --color-black: var(--gunmetal);
+  --color-black: var(--grey);
   --color-white: var(--beige);
-  --color-accent: var(--razzmatazz);
-  --color-accent-2: var(--cobalt-blue);
+  --color-accent: var(--pink);
+  --color-accent-2: var(--blue);
 }
