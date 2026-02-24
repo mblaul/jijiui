@@ -33,32 +33,23 @@ function createColorGrid() {
 
   const colors = ["blue", "pink", "gold", "beige", "grey"];
 
-  const swatchValues = colors.map((color) => {
-    let result = [];
+  let swatchValues = [];
 
+  colors.forEach((color) => {
     for (let i = 0; i <= 9; i++) {
       if (i === 0) {
-        result.push(`${color}-50`);
+        swatchValues.push(`${color}-50`);
       } else {
-        result.push(`${color}-${i * 100}`);
+        swatchValues.push(`${color}-${i * 100}`);
       }
     }
-
-    return result;
   });
 
-  swatchValues.forEach((swatchColumn) => {
-    const colorColumn = document.createElement("div");
-    colorColumn.classList.add("color-column");
+  swatchValues.forEach((swatchValue) => {
+    const colorBox = document.createElement("div");
+    colorBox.classList.add("color-swatch");
 
-    swatchColumn.forEach((swatchValue) => {
-      const colorBox = document.createElement("div");
-      colorBox.classList.add("color-swatch");
-
-      colorBox.style.backgroundColor = `var(--${swatchValue})`;
-      colorColumn.appendChild(colorBox);
-    });
-
-    colorGrid.appendChild(colorColumn);
+    colorBox.style.backgroundColor = `var(--${swatchValue})`;
+    colorGrid.appendChild(colorBox);
   });
 }

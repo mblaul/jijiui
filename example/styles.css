@@ -12,20 +12,14 @@
 }
 
 #color-grid {
-  display: flex;
-  justify-content: flex-start;
-  gap: var(--spacing-xs);
-}
-
-.color-column {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: repeat(10, auto);
   gap: var(--spacing-xs);
 }
 
 .color-swatch {
   width: 3rem;
   height: 3rem;
-  border: 1px solid var(--text-color);
-  border-radius: var(--border-radius-sm);
+  border: 2px solid var(--text-color);
+  border-radius: var(--spacing-xxs);
 }

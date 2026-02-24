@@ -4,3 +4,9 @@
   font-family: "Arial", sans-serif;
   letter-spacing: -0.5px;
 }
+
+a {
+  color: var(--color-primary);
+  font-weight: 600;
+  text-underline-offset: 1.5px;
+}
