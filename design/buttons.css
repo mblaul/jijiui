@@ -45,12 +45,30 @@ button {
 
 [data-theme="theme-light"] button {
   &:hover {
-    background-color: hsl(from var(--button-color) h calc(s + 10) calc(l + 10));
+    background-color: var(--color-accent-light);
+  }
+
+  &.secondary:hover {
+    background-color: var(--color-accent-2-light);
+  }
+
+  &.outline:hover {
+    background-color: var(--color-primary);
+    color: var(--color-white);
   }
 }
 
 [data-theme="theme-dark"] button {
   &:hover {
-    background-color: hsl(from var(--button-color) h calc(s + 10) calc(l - 10));
+    background-color: var(--color-accent-dark);
+  }
+
+  &.secondary:hover {
+    background-color: var(--color-accent-2-dark);
+  }
+
+  &.outline:hover {
+    background-color: var(--color-primary);
+    color: var(--color-black);
   }
 }
