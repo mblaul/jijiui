@@ -96,3 +96,21 @@ h5 {
   text-decoration-thickness: 1px;
   text-underline-offset: 1px;
 }
+
+nav {
+  a {
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  ul {
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    gap: var(--spacing-sm);
+    list-style: none;
+  }
+}
