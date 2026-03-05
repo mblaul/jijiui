@@ -2,6 +2,7 @@
 @import url("../core/index.css");
 @import url("../design/theme.css");
 @import url("../design/buttons.css");
+@import url("../design/cards.css");
 
 body {
   background-color: var(--background-color);
