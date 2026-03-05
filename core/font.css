@@ -1,12 +1,41 @@
 @import url("https://fonts.googleapis.com/css2?family=Alan+Sans:wght@300..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&display=swap");
 
 :root {
-  font-family: "Arial", sans-serif;
-  letter-spacing: 0.3px;
+  --font-family: "IBM Plex Sans", sans-serif;
+
+  --font-large-bold: bold 1.125rem/1.4em var(--font-family);
+
+  --font-bold: bold 1rem/1.4em var(--font-family);
+  --font: normal 1rem/1.4em var(--font-family);
+  --font-light: light 1rem/1.4em var(--font-family);
+
+  --font-small-light: 0.875rem/1.4em var(--font-family);
+
+  font-family: var(--font-family);
+  font: var(--font);
 }
 
 a {
   color: var(--color-primary);
   font-weight: 600;
   text-underline-offset: 1.5px;
+}
+
+.font-large-bold {
+  font: var(--font-large-bold);
+}
+
+.font-bold {
+  font: var(--font-bold);
+}
+
+.font-light {
+  color: rgba(from var(--text-color) r g b / 0.8);
+  font: var(--font-light);
+}
+
+.font-small-light {
+  color: rgba(from var(--text-color) r g b / 0.8);
+  font: var(--font-small-light);
 }

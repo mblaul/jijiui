@@ -112,5 +112,6 @@ nav {
     flex-direction: row;
     gap: var(--spacing-sm);
     list-style: none;
+    align-items: center;
   }
 }
