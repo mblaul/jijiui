@@ -1,11 +1,14 @@
 :root {
-  font-size: 16px;
-
   --spacing-xxs: 0.5rem;
   --spacing-xs: 1rem;
   --spacing-sm: 2rem;
   --spacing-med: 3rem;
   --spacing-lg: 5rem;
   --spacing-xl: 8rem;
-  --spacing-xxl: 16rem;
+  --spacing-xxl: 13rem;
+  --spacing-mega: 21rem;
+
+  --border-radius-sm: 0.5rem;
+  --border-radius-med: 1rem;
+  --border-radius-lg: 2rem;
 }

@@ -1,8 +1,6 @@
 /* Order matters */
 @import url("../core/index.css");
-@import url("../design/theme.css");
-@import url("../design/buttons.css");
-@import url("../design/cards.css");
+@import url("../core/design/index.css");
 
 body {
   background-color: var(--background-color);
