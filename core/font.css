@@ -7,6 +7,7 @@
   --font-family: "IBM Plex Sans", sans-serif;
 
   --font-large-bold: bold 1.125rem/1.4em var(--font-family);
+  --font-large: normal 1.125rem/1.4em var(--font-family);
 
   --font-bold: bold 1rem/1.4em var(--font-family);
   --font: normal 1rem/1.4em var(--font-family);

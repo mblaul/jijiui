@@ -59,10 +59,11 @@
   --grey-600: hsl(40, 2%, 20%);
   --grey-700: hsl(40, 2%, 16%);
   --grey-800: hsl(40, 2%, 12%);
+  --grey-850: hsl(40, 2%, 10%);
   --grey-900: hsl(40, 2%, 8%);
 
   /* Colors */
-  --color-black: var(--grey-700);
+  --color-black: var(--grey-900);
   --color-white: var(--beige);
   --color-accent: var(--pink-500);
   --color-accent-2: var(--blue-400);

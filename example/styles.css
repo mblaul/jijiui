@@ -50,7 +50,7 @@ footer {
   padding: var(--spacing-xs) var(--spacing-med);
   color: var(--background-color);
   border-radius: 1rem;
-  max-width: 66%;
+  width: 66%;
 }
 
 .jumbo-title {
@@ -62,11 +62,27 @@ footer {
   display: flex;
   flex-direction: column;
   gap: var(--spacing-med);
-  align-items: center;
+  align-items: stretch;
 }
 
 .cards {
   display: flex;
   flex-direction: row;
+  justify-content: center;
   gap: var(--spacing-med);
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  margin: 0 auto;
+  padding: var(--spacing-sm) var(--spacing-med);
+
+  width: min(100%, 40rem);
+  border: 2px solid var(--grey-600);
+  border-radius: 1rem;
+
+  background-color: var(--grey-850);
 }
