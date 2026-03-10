@@ -73,12 +73,12 @@ footer {
 }
 
 .form {
+  padding: 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
 
   margin: 0 auto;
-  padding: var(--spacing-sm) var(--spacing-med);
 
   width: min(100%, 40rem);
   border: 2px solid var(--grey-600);

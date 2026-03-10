@@ -2,7 +2,7 @@
 
 button {
   cursor: pointer;
-  padding: var(--spacing-xs);
+  padding: calc(var(--spacing-xs) * 0.75) var(--spacing-xs);
   color: var(--text-color);
 
   font:
