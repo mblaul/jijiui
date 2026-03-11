@@ -1,8 +1,16 @@
+[data-theme="theme-light"] {
+  --card-bg-color: var(--beige-200);
+}
+
+[data-theme="theme-dark"] {
+  --card-bg-color: var(--grey-850);
+}
+
 .card {
   border-radius: var(--border-radius-med);
   border: 2.5px dashed var(--color-primary);
   padding: var(--spacing-xs) var(--spacing-sm);
-  background-color: var(--grey-850);
+  background-color: var(--card-bg-color);
   color: var(--text-color);
 
   max-width: 25rem;

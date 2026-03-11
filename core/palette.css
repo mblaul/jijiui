@@ -2,7 +2,7 @@
   --blue: #2b5fbfff;
   --pink: #db3069ff;
   --gold: #f5d547ff;
-  --beige: #ebebd3ff;
+  --beige: hsl(60, 40%, 92%);
   --grey: #3c3c3bff;
 
   /* Shades */
@@ -41,6 +41,7 @@
 
   --beige-50: hsl(60, 33%, 97%);
   --beige-100: hsl(60, 33%, 93%);
+  --beige-150: hsl(60, 33%, 91%);
   --beige-200: hsl(60, 33%, 88%);
   --beige-300: hsl(60, 33%, 83%);
   --beige-400: hsl(60, 33%, 78%);

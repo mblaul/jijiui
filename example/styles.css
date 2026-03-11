@@ -72,6 +72,14 @@ footer {
   gap: var(--spacing-med);
 }
 
+[data-theme="theme-light"] .form {
+  --form-bg-color: var(--beige-100);
+}
+
+[data-theme="theme-dark"] .form {
+  --form-bg-color: var(--grey-850);
+}
+
 .form {
   padding: 0;
   display: flex;
@@ -84,5 +92,5 @@ footer {
   border: 2px solid var(--grey-600);
   border-radius: 1rem;
 
-  background-color: var(--grey-850);
+  background-color: var(--form-bg-color);
 }
