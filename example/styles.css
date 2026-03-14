@@ -89,8 +89,18 @@ footer {
   margin: 0 auto;
 
   width: min(100%, 40rem);
-  border: 2px solid var(--grey-600);
-  border-radius: 1rem;
-
   background-color: var(--form-bg-color);
+
+  --form-border: 2px solid var(--grey-600);
+
+  .form-body {
+    border-left: var(--form-border);
+    border-right: var(--form-border);
+  }
+
+  footer {
+    border-left: var(--form-border);
+    border-right: var(--form-border);
+    border-bottom: var(--form-border);
+  }
 }
