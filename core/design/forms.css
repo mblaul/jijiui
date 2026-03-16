@@ -49,7 +49,7 @@ label {
 }
 
 [data-theme="theme-light"] input {
-  --input-bg-color: var(--beige-50);
+  --input-bg-color: var(--beige-150);
 }
 
 [data-theme="theme-dark"] input {
