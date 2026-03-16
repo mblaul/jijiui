@@ -50,7 +50,10 @@ footer {
   padding: var(--spacing-xs) var(--spacing-med);
   color: var(--background-color);
   border-radius: 1rem;
-  width: 66%;
+
+  @media (min-width: var(--media-query-large)) {
+    width: 66%;
+  }
 }
 
 .jumbo-title {
@@ -68,12 +71,20 @@ footer {
 .cards {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
+  @media (min-width: var(--media-query-large)) {
+    flex-wrap: nowrap;
+  }
+
   justify-content: center;
-  gap: var(--spacing-med);
+  gap: var(--spacing-xs);
+  @media (min-width: var(--media-query-large)) {
+    gap: var(--spacing-med);
+  }
 }
 
 [data-theme="theme-light"] .form {
-  --form-bg-color: var(--beige-100);
+  --form-bg-color: var(--beige-200);
 }
 
 [data-theme="theme-dark"] .form {
@@ -89,16 +100,16 @@ footer {
   margin: 0 auto;
 
   width: min(100%, 40rem);
-  background-color: var(--form-bg-color);
-
   --form-border: 2px solid var(--grey-600);
 
   .form-body {
+    background-color: var(--form-bg-color);
     border-left: var(--form-border);
     border-right: var(--form-border);
   }
 
   footer {
+    background-color: var(--form-bg-color);
     border-left: var(--form-border);
     border-right: var(--form-border);
     border-bottom: var(--form-border);

@@ -11,4 +11,8 @@
   --border-radius-sm: 0.5rem;
   --border-radius-med: 1rem;
   --border-radius-lg: 2rem;
+
+  --media-query-small: 40rem;
+  --media-query-medium: 64rem;
+  --media-query-large: 75rem;
 }

@@ -9,7 +9,8 @@
 .card {
   border-radius: var(--border-radius-med);
   border: 2.5px dashed var(--color-primary);
-  padding: var(--spacing-xs) var(--spacing-sm);
+  padding: var(--spacing-xs) var(--spacing-sm) var(--spacing-med)
+    var(--spacing-sm);
   background-color: var(--card-bg-color);
   color: var(--text-color);
 

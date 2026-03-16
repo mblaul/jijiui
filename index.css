@@ -6,15 +6,33 @@ body {
   background-color: var(--background-color);
   color: var(--text-color);
 
-  padding: var(--spacing-med);
+  padding: var(--spacing-xxs);
+
+  @media (min-width: var(--media-query-medium)) {
+    padding: var(--spacing-sm);
+  }
+
+  @media (min-width: var(--media-query-large)) {
+    padding: var(--spacing-med);
+  }
 
   transition:
     ease-in-out 0.3s background-color,
     ease-in-out 0.3s color;
 }
 
+nav {
+  display: block;
+  height: 4rem;
+  flex-shrink: 0;
+}
+
 section {
-  padding: var(--spacing-sm);
+  padding: var(--spacing-xxs);
+
+  @media (min-width: var(--media-query-large)) {
+    padding: var(--spacing-sm);
+  }
 }
 
 .section-content {
