@@ -2,6 +2,8 @@ button {
   cursor: pointer;
   padding: calc(var(--spacing-xs) * 0.75) var(--spacing-xs);
   color: var(--text-color);
+  text-wrap: nowrap;
+  text-overflow: ellipsis;
 
   font:
     700 1.2rem "Alan Sans",
@@ -25,7 +27,7 @@ button {
   &.large {
     font-size: 1.6rem;
     font-weight: 700;
-    padding: var(--spacing-sm);
+    padding: calc(var(--spacing-xs) * 0.75) var(--spacing-xs);
     border: 2px solid var(--text-color);
     border-radius: var(--spacing-xxs);
   }

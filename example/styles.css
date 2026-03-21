@@ -1,8 +1,9 @@
-@import url("../dist/bundle.css");
+@import url("../index.css");
 
 .buttons-row {
   display: flex;
   gap: var(--spacing-xs);
+  flex-wrap: wrap;
 }
 
 .button-column {
