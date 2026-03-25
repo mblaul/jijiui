@@ -38,11 +38,6 @@ form {
   }
 }
 
-fieldset {
-  border: none;
-  padding: 0;
-}
-
 label {
   padding-inline-start: calc(var(--spacing-xxs) - 2px);
   margin-bottom: var(--spacing-xxs);
@@ -57,8 +52,6 @@ label {
 }
 
 input {
-  min-width: 0;
-  width: auto;
   background-color: var(--input-bg-color);
   color: var(--text-color);
   padding: var(--spacing-xxs) var(--spacing-xs);

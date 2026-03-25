@@ -10,6 +10,16 @@ body {
   overflow-x: hidden;
 }
 
+fieldset {
+  border: none;
+  padding: 0;
+}
+
+input {
+  min-width: 0;
+  width: auto;
+}
+
 /* Courtesy of Josh W. Comeau */
 /* https://www.joshwcomeau.com/css/custom-css-reset/ */
 
