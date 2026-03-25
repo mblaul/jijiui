@@ -37,36 +37,36 @@
   --media-query-small: 40rem;
   --media-query-medium: 64rem;
   --media-query-large: 75rem;
+}
 
-  /* Theme */
-  @media (prefers-color-scheme: no-preference) {
-    :root {
-      --background-color: var(--color-white);
-      --text-color: var(--color-black);
-    }
-  }
-
-  @media (prefers-color-scheme: light) {
-    :root {
-      --background-color: var(--color-white);
-      --text-color: var(--color-black);
-    }
-  }
-
-  [data-theme="theme-light"] {
+/* Theme */
+@media (prefers-color-scheme: no-preference) {
+  :root {
     --background-color: var(--color-white);
     --text-color: var(--color-black);
   }
+}
 
-  @media (prefers-color-scheme: dark) {
-    :root {
-      --background-color: var(--color-black);
-      --text-color: var(--color-white);
-    }
+@media (prefers-color-scheme: light) {
+  :root {
+    --background-color: var(--color-white);
+    --text-color: var(--color-black);
   }
+}
 
-  [data-theme="theme-dark"] {
+[data-theme="theme-light"] {
+  --background-color: var(--color-white);
+  --text-color: var(--color-black);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
     --background-color: var(--color-black);
     --text-color: var(--color-white);
   }
+}
+
+[data-theme="theme-dark"] {
+  --background-color: var(--color-black);
+  --text-color: var(--color-white);
 }
