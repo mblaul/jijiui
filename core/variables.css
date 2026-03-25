@@ -1,0 +1,72 @@
+/* Putting all variables in one file to make it easier to customize them per project. */
+:root {
+  /* Font */
+  --font-family: "Verdana", sans-serif;
+  --pretty-font-family: "Georgia", serif;
+
+  --font-large-bold: bold 1.125rem/1.4em var(--font-family);
+  --font-large: normal 1.125rem/1.4em var(--font-family);
+
+  --font-bold: bold 1rem/1.4em var(--font-family);
+  --font: normal 1rem/1.4em var(--font-family);
+  --font-light: light 1rem/1.4em var(--font-family);
+
+  --font-small-light: 0.875rem/1.4em var(--font-family);
+
+  /* Colors */
+  --color-black: black;
+  --color-white: white;
+  --color-primary: tomato;
+  --color-secondary: orange;
+  --color-accent: slateblue;
+
+  /* Spacing */
+  --spacing-xxs: 0.5rem;
+  --spacing-xs: 1rem;
+  --spacing-sm: 2rem;
+  --spacing-med: 3rem;
+  --spacing-lg: 5rem;
+  --spacing-xl: 8rem;
+  --spacing-xxl: 13rem;
+  --spacing-mega: 21rem;
+
+  --border-radius-sm: 0.5rem;
+  --border-radius-med: 1rem;
+  --border-radius-lg: 2rem;
+
+  --media-query-small: 40rem;
+  --media-query-medium: 64rem;
+  --media-query-large: 75rem;
+
+  /* Theme */
+  @media (prefers-color-scheme: no-preference) {
+    :root {
+      --background-color: var(--color-white);
+      --text-color: var(--color-black);
+    }
+  }
+
+  @media (prefers-color-scheme: light) {
+    :root {
+      --background-color: var(--color-white);
+      --text-color: var(--color-black);
+    }
+  }
+
+  [data-theme="theme-light"] {
+    --background-color: var(--color-white);
+    --text-color: var(--color-black);
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --background-color: var(--color-black);
+      --text-color: var(--color-white);
+    }
+  }
+
+  [data-theme="theme-dark"] {
+    --background-color: var(--color-black);
+    --text-color: var(--color-white);
+  }
+}
